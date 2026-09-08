@@ -89,3 +89,21 @@ for i in range(len(l)):
       larg=l[i]
       index = i
 print(f"your gretest no is {larg} & its index no. {index}")
+
+
+# print the list is sorted or not
+
+l1=[23,34,23,54,35,64,23]
+l2=[12,13,14,14,15,16]
+
+for i in range(len(l1)-1 and len(l2)-1):
+    if l1[i]<l1[i+1] and l2[i]<l2[i+1]:
+        continue
+    elif l1[i]>l1[i+1]:
+        print("your list 1 is not sorted")
+        break
+    else:
+        print("your list 2 is not sorted")
+        break
+else:
+    print("your both listed are sorted")
