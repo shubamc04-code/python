@@ -12,7 +12,7 @@ again telling we can perform CRUD operation on values but not all on key
 cause the keys cannot be changed after creation.
 """
 
-"""student = {"name": "shubham", "age":22}
+student = {"name": "shubham", "age":22}
 print(student['name'])
 
 d = { 10:100, 20:200, 30:300, 40:400}
@@ -50,7 +50,7 @@ print(a.items())
 a.pop(2)
 print(a)
 a.update({2: 300})
-print(a)"""
+print(a)
 
 #Merg the Dictionary
 
